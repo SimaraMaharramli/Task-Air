@@ -27,7 +27,7 @@ This is a simple .NET Core 6 project implementing basic functionalities for mana
   }
   Response: Product Created (Status Code: 200)
 
-Update Product
+### Update Product
 - **URL:** `PUT https://localhost:7259/api/Product/Update`
 Request Body:
 - **Request Body:**
@@ -55,7 +55,7 @@ Response: Details of the product with the specified ID (Status Code: 200)
 
 
 Order Management
-Create Order
+### Create Order
 - **URL:** ` POST https://localhost:7259/api/Order/CreateOrder  `
 Request Body:
 - **Request Body:**
