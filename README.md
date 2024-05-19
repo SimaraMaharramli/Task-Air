@@ -28,10 +28,10 @@ This is a simple .NET Core 6 project implementing basic functionalities for mana
   Response: Product Created (Status Code: 200)
 
 Update Product
-URL: PUT https://localhost:7259/api/Product/Update
+- **URL:** `PUT https://localhost:7259/api/Product/Update`
 Request Body:
-json
-Copy code
+- **Request Body:**
+  ```json
 {
   "id": 2,
   "name": "tt2",
@@ -43,23 +43,23 @@ Response: Product Updated (Status Code: 200)
 
 
 Delete Product
-URL: DELETE https://localhost:7259/api/Product/DeleteProduct/{id}
+- **URL:** ` DELETE https://localhost:7259/api/Product/DeleteProduct/{id} `
 Response: Product Deleted (Status Code: 200)
 
 Get All Products
-URL: GET https://localhost:7259/api/Product/GetAllProducts
+- **URL:** ` GET https://localhost:7259/api/Product/GetAllProducts `
 Response: List of all products (Status Code: 200)
 Get Product by ID
-URL: GET https://localhost:7259/api/Product/GetById/{id}
+- **URL:** ` GET https://localhost:7259/api/Product/GetById/{id} `
 Response: Details of the product with the specified ID (Status Code: 200)
 
 
 Order Management
 Create Order
-URL: POST https://localhost:7259/api/Order/CreateOrder
+- **URL:** ` POST https://localhost:7259/api/Order/CreateOrder  `
 Request Body:
-json
-Copy code
+- **Request Body:**
+  ```json
 {
   "description": "tt2",
   "location": "tt3",
@@ -72,7 +72,7 @@ Copy code
 Response: Order Created (Status Code: 200)
 
 Get User Order History
-URL: GET https://localhost:7259/api/Order/GetUserOrderHistory
+- **URL:** ` GET https://localhost:7259/api/Order/GetUserOrderHistory  `
 Response: List of orders made by the user (Status Code: 200)
 Delete Order
 URL: DELETE https://localhost:7259/api/Order/DeleteOrder/{id}
