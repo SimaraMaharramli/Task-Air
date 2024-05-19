@@ -1,3 +1,4 @@
+
 # .NET Core 6 Mini Project
 
 This is a simple .NET Core 6 project implementing basic functionalities for managing products, orders, and users. It includes features like user authentication (login/register), product management, and order creation.
@@ -27,10 +28,12 @@ This is a simple .NET Core 6 project implementing basic functionalities for mana
   }
   Response: Product Created (Status Code: 200)
 
+
+
 ### Update Product
 - **URL:** `PUT https://localhost:7259/api/Product/Update`
 - **Request Body:**
-  ```json
+```json
 {
 
     id": 2,
@@ -42,7 +45,7 @@ This is a simple .NET Core 6 project implementing basic functionalities for mana
 Response: Product Updated (Status Code: 200)
 
 
-Delete Product
+### Delete Product
 - **URL:** ` DELETE https://localhost:7259/api/Product/DeleteProduct/{id} `
 Response: Product Deleted (Status Code: 200)
 
@@ -54,12 +57,12 @@ Get Product by ID
 Response: Details of the product with the specified ID (Status Code: 200)
 
 
-Order Management
+### Order Management
 ### Create Order
 - **URL:** ` POST https://localhost:7259/api/Order/CreateOrder  `
 Request Body:
 - **Request Body:**
-  ```json
+```json
 {
 
     "description": "tt2",
@@ -82,4 +85,6 @@ Response: Order Deleted (Status Code: 200)
 Permissions
 Admins: Can create, update, and delete products.
 Users: Can view all products, retrieve product details, create orders, view their order history, and delete their orders.
+
+
 
