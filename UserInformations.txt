@@ -1,0 +1,7 @@
+Admnin 
+  "email": "simaramaharramli@gmail.com",
+  "passWord": "08052002Ms?!"
+
+Consumer
+  "email": "hijransulkhayev@gmail.com",
+  "passWord": "08052002Hs?!"
