@@ -27,17 +27,18 @@ This is a simple .NET Core 6 project implementing basic functionalities for mana
   }
   Response: Product Created (Status Code: 200)
 
-Update Product
-URL: PUT https://localhost:7259/api/Product/Update
-Request Body:
-json
+### Update Product
+- **URL:** `PUT https://localhost:7259/api/Product/Update`
+- **Request Body:**
+  ```json
 {
-  "id": 2,
-  "name": "tt2",
-  "description": "tt2",
-  "price": 9.01,
-  "stock": 80
-}
+
+    id": 2,
+    "name": "tt2",
+    "description": "tt2",
+    "price": 9.01,
+    "stock": 80
+}`
 Response: Product Updated (Status Code: 200)
 
 
@@ -60,8 +61,9 @@ Request Body:
 - **Request Body:**
   ```json
 {
-  "description": "tt2",
-  "location": "tt3",
+
+    "description": "tt2",
+    "location": "tt3",
   "products": [
     {
       "productId": 3
